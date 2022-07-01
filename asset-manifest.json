@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/quest_club/static/css/main.bbce7d2d.css",
-    "main.js": "/quest_club/static/js/main.16d5a3d4.js",
-    "static/js/787.86f81039.chunk.js": "/quest_club/static/js/787.86f81039.chunk.js",
-    "index.html": "/quest_club/index.html",
-    "main.bbce7d2d.css.map": "/quest_club/static/css/main.bbce7d2d.css.map",
-    "main.16d5a3d4.js.map": "/quest_club/static/js/main.16d5a3d4.js.map",
-    "787.86f81039.chunk.js.map": "/quest_club/static/js/787.86f81039.chunk.js.map"
+    "main.css": "/static/css/main.bbce7d2d.css",
+    "main.js": "/static/js/main.3d69ccb4.js",
+    "static/js/787.86f81039.chunk.js": "/static/js/787.86f81039.chunk.js",
+    "index.html": "/index.html",
+    "main.bbce7d2d.css.map": "/static/css/main.bbce7d2d.css.map",
+    "main.3d69ccb4.js.map": "/static/js/main.3d69ccb4.js.map",
+    "787.86f81039.chunk.js.map": "/static/js/787.86f81039.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bbce7d2d.css",
-    "static/js/main.16d5a3d4.js"
+    "static/js/main.3d69ccb4.js"
   ]
 }
