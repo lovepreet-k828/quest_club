@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/quest_club/static/css/main.fe51a322.css",
-    "main.js": "/quest_club/static/js/main.e62e14eb.js",
+    "main.css": "/quest_club/static/css/main.31d002a8.css",
+    "main.js": "/quest_club/static/js/main.abdd53a0.js",
     "static/js/787.86f81039.chunk.js": "/quest_club/static/js/787.86f81039.chunk.js",
     "index.html": "/quest_club/index.html",
-    "main.fe51a322.css.map": "/quest_club/static/css/main.fe51a322.css.map",
-    "main.e62e14eb.js.map": "/quest_club/static/js/main.e62e14eb.js.map",
+    "main.31d002a8.css.map": "/quest_club/static/css/main.31d002a8.css.map",
+    "main.abdd53a0.js.map": "/quest_club/static/js/main.abdd53a0.js.map",
     "787.86f81039.chunk.js.map": "/quest_club/static/js/787.86f81039.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe51a322.css",
-    "static/js/main.e62e14eb.js"
+    "static/css/main.31d002a8.css",
+    "static/js/main.abdd53a0.js"
   ]
 }
