@@ -1,0 +1,85 @@
+@keyframes movereg {
+  0% {
+    transform: translateY(40rem) rotateY(-20deg);
+  }
+
+  100% {
+    transform: translateY(0) rotateY(0);
+    opacity: 1;
+  }
+}
+
+.regContainer {
+  animation: movereg 1s 0s forwards;
+}
+
+.moveimage {
+  animation: movereg 1.5s 0s forwards;
+}
+
+.input {
+  width: 70%;
+  height: 24px;
+  box-shadow: 1px 1px #818181;
+  display: block;
+  margin: 3% 15%;
+}
+
+.close {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  font-size: 40px;
+  transform: rotate(45deg);
+  cursor: pointer;
+
+}
+
+.button {
+  background-color: #ebab36;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5%;
+  box-shadow: 5px 5px rgb(0,0,0,0.5),
+}
+
+/* .button:focus {
+  box-shadow: none;
+} */
+.button:hover {
+  background-color: black;
+  color: #ebab36;
+
+
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.register {
+  max-height:448px;
+  overflow-y:scroll;
+  top:5%;
+  bottom: 5%;
+}
+
+@media only screen and (min-width: 500px) {
+  .register {
+    width: 300px;
+    left: 35%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .register {
+    width: 80%;
+    left: 10%;
+  }
+}

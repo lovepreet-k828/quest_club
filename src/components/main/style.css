@@ -1,0 +1,126 @@
+.header {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-height: fit-content;
+  width: 100%;
+  min-height: 100vh;
+  animation: scale 25s;
+}
+
+
+.welcomeNote {
+  font-family: 'Times New Roman', Times, serif;
+  color: #fff;
+  text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.4);
+  opacity: 1;
+  animation: moveBanner 1.5s 0s forwards;
+  padding:1%;
+}
+
+.nitl {
+  width: 10%;
+  height: 10%;
+  padding-left: 60%;
+  position: relative;
+  padding-bottom: 20%;
+  border-radius: 50%;
+
+}
+
+.banner {
+  padding-left: 10%;
+  float: left;
+}
+
+
+@keyframes moveBanner {
+  0% {
+    transform: translateY(40rem) rotateY(-20deg);
+  }
+
+  100% {
+    transform: translateY(0) rotateY(0);
+    opacity: 1;
+  }
+}
+
+.icon {
+  position: fixed;
+  top: 40%;
+  }
+
+.icon a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.insta {
+  background: #55ACEE;
+  color: white;
+}
+
+/* responsive design for different screen sizes*/
+@media screen and (max-width: 1000px) {
+  .welcomeNote {
+    font-size: 4rem;
+    font-weight: 250;
+    width: 50%;
+    line-height: 5rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .wcIcon {
+    display: none;
+  }
+
+  .topIcon {
+    display: flex;
+    justify-content: center;
+  }
+
+  .welcomeNote {
+    font-size: 4rem;
+    font-weight: 250;
+    width: 100%;
+    line-height: 5rem;
+  }
+  .header {
+    overflow-x: hidden;
+  overflow-y: scroll;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .welcomeNote {
+    font-size: 5rem;
+    font-weight: 250;
+    width: 50%;
+    line-height: 5rem;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .wcIcon {
+    display: inline-block;
+    }
+
+  .topIcon {
+    display: none;
+  }
+}

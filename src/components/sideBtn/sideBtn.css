@@ -1,0 +1,9 @@
+ #ma {
+   position: relative;
+   width: 100%;
+   z-index: 0;
+ }
+
+ #ma h2 {
+   opacity: 1;
+ }
